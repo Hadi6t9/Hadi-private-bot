@@ -25,14 +25,14 @@ module.exports = {
   },
 
   onStart: async function ({ message }) {
-    const botName = "𝙎𝘼𝙉𝙉𝙔𖣘𝘽𝙊𝙏࿐";
+    const botName = "𝗛𝗔𝗗𝗜-𝗕𝗢𝗧";
     const botPrefix = "+";
-    const authorName = "𝙎𝘼𝙃𝘼𝙍𝙐𝙇 𝙄𝙎𝙇𝘼𝙈 𝙎𝘼𝙉𝙔";
-    const authorFB = "https://www.facebook.com/profile.php?id=100057678948022";
+    const authorName = "𝗠𝗨𝗞𝗧𝗔𝗗𝗜𝗥 𝗥𝗔𝗛𝗠𝗔𝗡 𝗛𝗔𝗗𝗜";
+    const authorFB = "https://www.facebook.com/profile.php?id=100089596543479&mibextid=ZbWKwL";
     const authorInsta = "No Use";
     const status = "Single🙂 ";
     const imgURLs = [
-      "https://i.imgur.com/mhOL6QL.jpeg",
+      "https://i.ibb.co/f4NT5bQ/image.jpg",
     ];
 
 
