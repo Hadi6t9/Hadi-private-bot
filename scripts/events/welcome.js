@@ -26,10 +26,10 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "🟢 𝘚𝘈𝘕𝘕𝘠 𝘉𝘖𝘛  are connected successfully!\n\n━━━━━━━━━━━━━━\n🎎greetings: Thank you for inviting me to the group😊\n\n𝗕𝗢𝗧 𝗽𝗿𝗲𝗳𝗶𝘅: %1\nTo view the list of commands, please enter: %1help\n𝙇𝙀𝘿𝘼𝙍:https://www.facebook.com/profile.php?id=100057678948022\n━━━━━━━━━━━━━━\nThanks for using my Bot",
+			welcomeMessage: "🟢 𝗛𝗔𝗗𝗜 𝗕𝗢𝗧  are connected successfully!\n\n━━━━━━━━━━━━━━\n🎎greetings: Thank you for inviting me to the group😊\n\n𝗕𝗢𝗧 𝗽𝗿𝗲𝗳𝗶𝘅: %1\nTo view the list of commands, please enter: %1help\n𝙇𝙀𝘿𝘼𝙍:https://www.facebook.com/profile.php?id=100089596543479&mibextid=ZbWKwL\n━━━━━━━━━━━━━━\nThanks for using my Bot",
 			multiple1: "𝘆𝗼𝘂",
 			multiple2: "𝘆𝗼𝘂 𝗴𝘂𝘆𝘀",
-			defaultWelcomeMessage: `𝗛𝗲𝗹𝗹𝗼  𝗻𝗶𝗴𝗴𝗮 @{userName}.\n\n𝘄𝗲𝗹𝗰𝗼𝗺𝗲 {multiple} 𝘁𝗼 𝘁𝗵𝗲 𝗰𝗵𝗮𝘁 𝗴𝗿𝗼𝘂𝗽☃️\n𝗚𝗿𝗼𝘂𝗽 𝗻𝗮𝗺𝗲:『{boxName}』\n𝗛𝗮𝘃𝗲 𝗮 𝗻𝗶𝗰𝗲 {session} 🤖\n━━━━━━━━━━━━━━\n𝙈𝙔 𝘽𝙊𝙎𝙎 𝗖𝗢𝗡𝗧𝗔𝗖𝗧:https://www.facebook.com/profile.php?id=100057678948022\n━━━━━━━━━━━━━━`
+			defaultWelcomeMessage: `𝗛𝗲𝗹𝗹𝗼  𝗻𝗶𝗴𝗴𝗮 @{userName}.\n\n𝘄𝗲𝗹𝗰𝗼𝗺𝗲 {multiple} 𝘁𝗼 𝘁𝗵𝗲 𝗰𝗵𝗮𝘁 𝗴𝗿𝗼𝘂𝗽☃️\n𝗚𝗿𝗼𝘂𝗽 𝗻𝗮𝗺𝗲:『{boxName}』\n𝗛𝗮𝘃𝗲 𝗮 𝗻𝗶𝗰𝗲 {session} 🤖\n━━━━━━━━━━━━━━\n𝙈𝙔 𝘽𝙊𝙎𝙎 𝗖𝗢𝗡𝗧𝗔𝗖𝗧:https://www.facebook.com/profile.php?id=100089596543479&mibextid=ZbWKwL\n━━━━━━━━━━━━━━`
 		}
 	},
 
