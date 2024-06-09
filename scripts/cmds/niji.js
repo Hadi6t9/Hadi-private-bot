@@ -3,11 +3,11 @@ const { getStreamFromURL } = global.utils;
 
 module.exports = {
     config: {
-        name: "nijix",
-        aliases: ["nijijourneyx"],
+        name: "niji",
+        aliases: ["nijijourney", "art"],
         version: "1.0",
-        author: "SiAM | Turtle APIs",
-        countDown: 5,
+        author: "rehat--",
+        countDown: 0,
         role: 0,
         longDescription: "Text to Image",
         category: "ai",
@@ -18,7 +18,6 @@ module.exports = {
 
     onStart: async function({ api, args, message, event }) {
         try {
-
             let prompt = "";
             let imageUrl = "";
             let aspectRatio = ""; 
@@ -35,34 +34,28 @@ module.exports = {
                 message.reply("Please provide a prompt or reply to an image.");
                 return;
             }
-
+            
             if (args.length > 0) {
                 prompt = args.join(" ");
             }
 
-
-            let apiUrl = `https://project-niji.onrender.com/api/generate?prompt=${encodeURIComponent(prompt)}.&aspectRatio=${aspectRatio}&apikey=rehat&key=siam`;
+            
+            let apiUrl = `https://project-niji.onrender.com/api/v1/generate?prompt=${encodeURIComponent(prompt)}.&aspectRatio=${aspectRatio}&apikey=rehat`;
             if (imageUrl) {
                 apiUrl += `&imageUrl=${imageUrl}`;
             }
 
-            const processingMessage = await message.reply("⛵ Initiating request");
-            message.reaction("⏳", event.messageID);
-
+            const processingMessage = await message.reply("Please wait...⏳");
             const response = await axios.post(apiUrl);
             const img = response.data.url;
 
-            const downloadLink = `Your Imagination Is Created 🌟\nDownload: ${img}`;
             await message.reply({
-                body: downloadLink,
                 attachment: await getStreamFromURL(img)
             });
-            message.unsend(processingMessage.messageID);
-            await message.reaction("✅", event.messageID);
+
         } catch (error) {
             console.error(error);
             message.reply("An error occurred.");
-            message.reaction("❌", event.messageID);
         }
     }
 };
