@@ -9,7 +9,7 @@ module.exports = {
 	config: {
 		name: 'autolink',
 		version: '1.0',
-		author: 'MR.SANNY',
+		author: 'MR.AYAN',
 		countDown: 5,
 		role: 0,
 		shortDescription: 'downloader',
