@@ -16,7 +16,7 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: 'Bishwo Bastola',
+      name: 'Muktadir Rahman Hadi',
       gender: 'Male',
       age: '20',
       height: '6 feet',
